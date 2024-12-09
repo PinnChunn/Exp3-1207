@@ -43,7 +43,7 @@ export default function AuthModal({ isOpen, onClose, onSuccess }: AuthModalProps
     }
 
     if (user) {
-      onSuccess();
+      onSuccess(user);
     }
   };
 
